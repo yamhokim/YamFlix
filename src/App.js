@@ -303,6 +303,18 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
     [selectedId]
   );
 
+  useEffect(
+    function () {
+      if (!title) return;
+      document.title = `YamFlix | ${title}`;
+
+      return function () {
+        document.title = "YamFlix";
+      };
+    },
+    [title]
+  );
+
   return (
     <div className="details">
       {isLoading ? (
