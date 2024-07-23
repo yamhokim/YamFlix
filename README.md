@@ -47,4 +47,18 @@ Follow these instructions to get a copy of the project up and running on your lo
    npm start
    ```
 
-## DEMO COMING SOON
+## Demo
+
+You can check out a live demo of the YamFlix application hosted on Netlify. This demo version showcases the core features of the application, allowing you to browse, rate, and save a wide variety of movies.
+
+### [Live Demo on Netlify](https://yamflix.netlify.app/)
+
+Feel free to explore the functionality and user interface. Please note that while the demo is fully functional, some features might be limited or use mock data for demonstration purposes.
+
+## Contact & Links
+
+Yoonho Kim - yoonho.luke.kim@gmail.com or yamho.kim@mail.utoronto.ca
+
+Project Link: https://github.com/yamhokim/YamFlix
+
+OMDb API Documentation: https://www.omdbapi.com/
